@@ -12,9 +12,9 @@ public class Main {
         System.out.println("Podaj mianownik");
         int mianownik = scanner.nextInt();{
             if (licznik%mianownik == 0)
-                System.out.println("Liczba " + licznik + " Jest podzielna przez " + mianownik);
+                System.out.println("Liczba " + licznik + " jest podzielna przez " + mianownik);
             else
-                System.out.println("Liczba " + licznik + " Nie jest podzielna przez " + mianownik);
+                System.out.println("Liczba " + licznik + " nie jest podzielna przez " + mianownik);
         }
 
     }
